@@ -28,18 +28,16 @@ almost_numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 # TODO: use a list comprehension to create a list of integers
 # from this list of strings
 
-new_numbers=[]
+
 # for num in almost_numbers:
 new_numbers = [int(num) for num in almost_numbers[1:]]
 print(new_numbers)
 
-
-
 # TODO: use a list comprehension to create a list of all of the full_names
 # in lowercase format
 
-new_names= []
-new_names= [str(name.lower()) for name in full_names]
+
+new_names = [name.lower() for name in full_names]
 print(new_names)
 # for names in full_names:
 #     lowercase_full_names = str(full_names)
