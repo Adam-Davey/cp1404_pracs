@@ -6,6 +6,8 @@ COLOUR_CODES = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7",
                 "aquamarine4": "#458b74", "azure1": "#f0ffff",
                 "azure2": "#e0eeee", "azure3": "#c1cdcd", "azure4": "#838b8b",
                 "beige": "#f5f5dc", "bisque1": "#ffe4c4"}
+for colors in COLOUR_CODES:
+    print(colors)
 
 colour_name = input("Enter a colour name: ")
 while colour_name != "":
