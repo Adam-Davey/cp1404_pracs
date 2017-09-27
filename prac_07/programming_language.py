@@ -8,3 +8,6 @@ class ProgrammingLanguage:
             print("dynamic")
         else:
             print ("static")
+
+    def __str__(self):
+        return "{}, {}, Reflection=True, First appeared in 1991"
